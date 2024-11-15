@@ -1,8 +1,8 @@
 import {useRef,useEffect} from 'react'
 // import './face.css'
 import { Link, NavLink } from 'react-router-dom'
-// import '../../reactjsFaceApi-master/src/Guest.css'
-// import * as faceapi from 'face-api.js'
+ import '../../reactjsFaceApi-master/src/Guest.css'
+ import * as faceapi from 'face-api.js'
 
 function App(){
   const videoRef = useRef()
