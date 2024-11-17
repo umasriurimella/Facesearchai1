@@ -5,10 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <p>© 2024 Face Search AI. All rights reserved.</p>
-      <ul>
-        <li><a href="https://www.youtube.com/@GreatStackDev/videos" target='_blank'>Terms of Services</a></li>
-        <li><a href="https://www.youtube.com/@GreatStackDev/videos" target='_blank'>Privacy Policy</a></li>
-      </ul>
+      
     </div>
   )
 }
