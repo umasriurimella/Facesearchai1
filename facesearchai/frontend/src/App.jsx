@@ -6,13 +6,11 @@ import Testimonials from './pages/Testimonials'
 import Contact from './pages/Contact'
 import Guest from './Guest'
 import Login from './pages/Login'
-// import PlaceOrder from './pages/PlaceOrder'
-// import Orders from './pages/Orders'
+
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import Verify from './pages/Verify'
 
 const App = () => {
   return (
@@ -26,9 +24,6 @@ const App = () => {
         <Route path='/contact' element={<Contact />} /> 
         <Route path='/guest' element={<Guest />} /> 
         <Route path='/login' element={<Login />} />
-        {/* <Route path='/place-order' element={<PlaceOrder />} />
-        <Route path='/orders' element={<Orders />} />
-        <Route path='/verify' element={<Verify />} /> */}
       </Routes>
       <Footer />
     </div>

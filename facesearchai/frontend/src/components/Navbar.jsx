@@ -1,20 +1,24 @@
-import React, { useContext, useState } from 'react'
+import React, {useState } from 'react'
 import {assets} from '../assets/assets'
 import logo from '../assets/logo.png'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
-// import { ShopContext } from '../context/ShopContext';
+
+
 
 const Navbar = () => {
+    const backendUrl=import.meta.env.VITE_BACKEND_URL
 
     const [visible,setVisible] = useState(false);
 
-    const navigate= useNavigate();
-
+    const {navigate, token, setToken} = useNavigate(useNavigate);
     const logout = () => {
         navigate('/login')
         localStorage.removeItem('token')
         setToken('')
 
+    }
+    const value={
+        backendUrl,navigate,token
     }
 
   return (
@@ -53,15 +57,14 @@ const Navbar = () => {
             </NavLink>
                
                  {/* Dropdown Menu */}
-                 {/* {token &&  */}
-                 {/* {
+                  {token &&  
+                
                  <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
-                     <div className='flex flex-col gap-2 w-36 py-3 px-5  bg-slate-100 text-gray-500 rounded'>
-                        <p className='cursor-pointer hover:text-black'>My Profile</p>
-                        <p onClick={()=>navigate('/guest')} className='cursor-pointer hover:text-black'>Orders</p>
+                     
                          <p onClick={logout} className='cursor-pointer hover:text-black'>Logout</p>
                      </div>
-                 </div>}  */}
+                 }  
+                 
             </div> 
             <NavLink to='/guest' className='flex flex-col items-center gap-1'>
             <p>Guest</p>
