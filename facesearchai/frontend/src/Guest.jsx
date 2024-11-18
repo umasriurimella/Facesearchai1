@@ -76,10 +76,12 @@ function App(){
       (scroll down and align your face properly to camera)
     </h2>
     <h2>what to unlock more features Buy plan</h2>
-    <NavLink to='/payment' className='flex flex-col items-center gap-1'>
-            <p>PAYMENT</p>
+    <NavLink to='/subscriptioncard' className='flex flex-col items-center gap-1'>
+            <button>Subscription</button>
+            <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
             </NavLink>
-               
+    
+            
 
       <div className="appvide">
         

@@ -6,7 +6,7 @@ import Testimonials from './pages/Testimonials'
 import Contact from './pages/Contact'
 import Guest from './Guest'
 import Login from './pages/Login'
-
+import SubscriptionCard from './pages/SubscriptionCard'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { ToastContainer, toast } from 'react-toastify';
@@ -24,6 +24,7 @@ const App = () => {
         <Route path='/contact' element={<Contact />} /> 
         <Route path='/guest' element={<Guest />} /> 
         <Route path='/login' element={<Login />} />
+        <Route path='/subscriptioncard'element={<SubscriptionCard/>}/>
       </Routes>
       <Footer />
     </div>
