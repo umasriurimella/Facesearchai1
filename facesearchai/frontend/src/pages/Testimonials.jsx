@@ -27,7 +27,10 @@ const slideBackward = ()=>{
 }
 
   return (
+   
     <div className='testimonials'>
+         <h1>Testimonials</h1>
+         <h2>What user says</h2>
       <img src={next_icon} alt="" className='next-btn' onClick={slideForward}/>
       <img src={back_icon} alt="" className='back-btn' onClick={slideBackward}/>
       <div className="slider">

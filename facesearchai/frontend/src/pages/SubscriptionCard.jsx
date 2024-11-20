@@ -1,4 +1,5 @@
 import axios from 'axios'
+import './subscription.css'
 
 
 function App() {
@@ -16,12 +17,12 @@ function App() {
   }
 
   return (
-    <>
-    <p>If you want to access more features Buy Plan</p>
-    <button onClick={buyfunction}>
+    <div className='subscription'>
+    <h1>If you want to access more features Buy Plan</h1><br/><br/>
+    <button onClick={buyfunction}className='btn'>
       buy now
     </button>
-    </>
+    </div>
   )
 }
 

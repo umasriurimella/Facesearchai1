@@ -1,0 +1,32 @@
+.login{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:aliceblue;
+}
+.login h2{
+  color: rgba(167, 102, 219, 0.773);
+}
+.contact-col{
+  flex-basis: 48%;
+  color: #ffffff;
+}
+
+.contact form input{
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+.login .btn{
+  background: rgba(167, 102, 219, 0.773);
+  color: #ffffff;
+}

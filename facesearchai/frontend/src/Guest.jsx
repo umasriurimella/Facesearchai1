@@ -70,15 +70,15 @@ function App(){
   return (
     <div className="myapp">
     <h1>FACE DETECTION</h1>
-    <h2>As of now i have added the face detection feature it shows what 
-      expression our face gives happy or sad</h2>
-      <h2>
+    <p>As of now i have added the face detection feature it shows what 
+      expression our face gives happy or sad</p>
+      <p>
       (scroll down and align your face properly to camera)
-    </h2>
-    <h2>what to unlock more features Buy plan</h2>
+    </p>
+    <p>what to unlock more features Buy plan</p>
     <NavLink to='/subscriptioncard' className='flex flex-col items-center gap-1'>
-            <button>Subscription</button>
-            <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
+            <button className='btn'>Subscription</button>
+            {/* <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' /> */}
             </NavLink>
     
             

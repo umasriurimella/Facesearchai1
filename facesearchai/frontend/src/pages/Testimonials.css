@@ -12,7 +12,15 @@
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #0d0d0d;
+    background: #27273e;
+}
+.testimonials h1{
+    color:rgba(167, 102, 219, 0.773);
+    text-align: center;
+}
+.testimonials h2{
+    color:rgb(255, 255, 255);
+    text-align: center;
 }
 .back-btn{
     right: auto;
@@ -33,7 +41,7 @@
     padding: 20px;
 }
 .slide{
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.097);
+    box-shadow: 0 0 20px rgba(162, 153, 233, 0.895);
     padding: 40px;
     border-radius: 10px;
     color: #f5f3f3;
