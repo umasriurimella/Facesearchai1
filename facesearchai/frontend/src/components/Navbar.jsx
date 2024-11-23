@@ -27,14 +27,15 @@ const Navbar = () => {
         window.addEventListener('scroll', ()=>{
             window.scrollY > 50 ? setSticky(true) : setSticky(false);
         })
+        
+
     },[]);
-
-
     const [mobileMenu, setMobileMenu] = useState(false);
     const toggleMenu = ()=>{
       mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
     }
 
+    
   return (
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
       
@@ -47,15 +48,6 @@ const Navbar = () => {
         <li><Link to='/testimonials'>TESTIMONIALS</Link></li>
         <li><Link to='/contact'>CONTACT</Link></li>
         <li><Link to='/login'>LOGIN</Link></li>
-               
-                 {/* Dropdown Menu */}
-                  {token &&  
-                
-                 <div className=''>
-                     
-                         <p onClick={logout} className=''>Logout</p>
-                     </div>
-                 }  
                  
            
             <li><Link to='/guest' >GUEST</Link></li>
