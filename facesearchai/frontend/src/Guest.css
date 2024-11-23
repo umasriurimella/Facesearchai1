@@ -24,3 +24,19 @@
   background: rgba(167, 102, 219, 0.773);
   color: aliceblue;
 }
+@media (max-width: 700px){
+  .myapp{
+       display: block; 
+       padding: 66px 0px;
+      flex-direction: column;
+  }
+  .appvide{
+    display: block;
+    align-items: center;
+  }
+  .appcanvas{
+    display: block;
+    align-items: center;
+  }
+  
+}
