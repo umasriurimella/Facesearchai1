@@ -23,7 +23,7 @@ nav ul li{
 }
 .dark-nav{
     background: #0f0159;
-    /* transition: 0.5s;*/
+    transition: 0.5s;
 } 
 .menu-icon{
     display: none;

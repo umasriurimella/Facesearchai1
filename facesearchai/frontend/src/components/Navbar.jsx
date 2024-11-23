@@ -42,20 +42,17 @@ const Navbar = () => {
       <img src={logo} alt="" className='logo' />
 
       <ul className={mobileMenu?'':'hide-mobile-menu'}>
-      <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
-        <li><Link to='/'>HOME</Link></li>      
-       <li><Link to='/about'>ABOUT</Link></li>
-        <li><Link to='/testimonials'>TESTIMONIALS</Link></li>
-        <li><Link to='/contact'>CONTACT</Link></li>
-        <li><Link to='/login'>LOGIN</Link></li>
+      
+        <li><Link to='/'smooth={true} offset={0} duration={500}>HOME</Link></li>      
+       <li><Link to='/about'smooth={true} offset={-260} duration={500}>ABOUT</Link></li>
+        <li><Link to='/testimonials'smooth={true} offset={-150} duration={500}>TESTIMONIALS</Link></li>
+        <li><Link to='/contact'smooth={true} offset={-260} duration={500}>CONTACT</Link></li>
+        <li><Link to='/login'smooth={true} offset={-2160} duration={500}>LOGIN</Link></li>
                  
            
             <li><Link to='/guest' >GUEST</Link></li>
-            
-           
-      
       </ul>
-
+      <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>   
     </nav>
   )
 }
