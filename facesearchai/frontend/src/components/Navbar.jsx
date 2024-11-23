@@ -42,7 +42,7 @@ const Navbar = () => {
       <img src={logo} alt="" className='logo' />
 
       <ul className={mobileMenu?'':'hide-mobile-menu'}>
-        
+      <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
         <li><Link to='/'>HOME</Link></li>      
        <li><Link to='/about'>ABOUT</Link></li>
         <li><Link to='/testimonials'>TESTIMONIALS</Link></li>
@@ -52,7 +52,7 @@ const Navbar = () => {
            
             <li><Link to='/guest' >GUEST</Link></li>
             
-            <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
+           
       
       </ul>
 
