@@ -69,9 +69,8 @@ function App(){
 
   return (
     <div className="myapp">
-    <h1>FACE DETECTION</h1>
-    <p>As of now i have added the face detection feature it shows what 
-      expression our face gives happy or sad</p>
+    <h1>FACE SEARCH AI</h1>
+    <p>As of now i have created basic template it is face detection feature</p>
       <p>
       (scroll down and align your face properly to camera)
     </p>
@@ -83,15 +82,14 @@ function App(){
     
             
 
-      <div className="appvide">
-        
-      <video crossOrigin="anonymous" ref={videoRef} autoPlay></video>
+       <div className="appvide">
+              <video crossOrigin="anonymous" ref={videoRef} autoPlay></video>
       </div>
       <canvas ref={canvasRef} width="940" height="650"
       className="appcanvas"/>
-    </div>
-    )
+ </div> 
+     )
 
-}
+ }
 
 export default App;
