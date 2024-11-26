@@ -83,7 +83,7 @@ function ImageUpload() {
         >
           {buttonText}
         </button>
-        If you Want to access more features make Subscription
+        If you want to access more features make Subscription
         <Link to ='/subscriptioncard'><button
           className="image-upload-button1"
         >
