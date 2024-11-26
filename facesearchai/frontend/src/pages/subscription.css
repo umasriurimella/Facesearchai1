@@ -1,16 +1,24 @@
 .subscription{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color:aliceblue;
-  }
+  margin-top:100px;
+  margin-left: 540px;
+  border: rgba(167, 102, 219, 0.773);
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  width: 30vw;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:rgb(0, 0, 0);
+  /* box-shadow: 0 0 20px rgba(162, 153, 233, 0.895); */
+  line-height: 3.4;
+  background-color: rgb(177, 183, 232);
+}
   .subscription h1{
-    color:rgba(167, 102, 219, 0.773);
+    color:rgba(129, 5, 231, 0.773);
   }
   .subscription .btn{
-    background: #43439e;
+    background: #1010a4;
     color: aliceblue;
   }

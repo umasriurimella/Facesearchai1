@@ -27,7 +27,7 @@ app.get('/',(req,res)=>{
 })
 app.post('/payment',async(req,res)=>{
     const product =await stripe.products.create({
-        name:"standard"
+        name:"Premium"
     });
     if(product){
         var price =await stripe.prices.create({
