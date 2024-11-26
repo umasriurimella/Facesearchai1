@@ -41,7 +41,7 @@
 }
 
 .image-upload-button:hover {
-  background-color: rgba(75, 158, 196, 0.773);
+  background-color: rgba(89, 30, 171, 0.773);
 }
 
 .img-display-before {
@@ -63,4 +63,7 @@
   margin-top: 1rem;
   cursor: pointer;
   border-radius: 5px;
+}
+.image-upload-button1:hover {
+  background-color: rgba(33, 205, 30, 0.773);
 }

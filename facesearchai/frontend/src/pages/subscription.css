@@ -1,12 +1,12 @@
 .subscription{
-  margin-top:100px;
+  margin-top:95px;
   margin-left: 540px;
   border: rgba(167, 102, 219, 0.773);
-  border-radius: 10px;
+  border-radius: 40px;
   padding: 2rem;
   display: flex;
-  width: 30vw;
-  height: 90vh;
+  width: 28vw;
+  height: 80vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;

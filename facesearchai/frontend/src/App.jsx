@@ -8,7 +8,7 @@ import Guest from './Guest'
 import Login from './pages/Login'
 import SubscriptionCard from './pages/SubscriptionCard'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -28,7 +28,7 @@ const App = () => {
         <Route path='/login' element={<Login />} />
         <Route path='/subscriptioncard'element={<SubscriptionCard/>}/>
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

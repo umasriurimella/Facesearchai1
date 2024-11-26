@@ -1,14 +1,22 @@
 .login{
+  margin-top:100px;
+  margin-left: 580px;
+  border: rgba(167, 102, 219, 0.773);
+  border-radius: 20px;
+  padding: 2rem;
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  width: 20vw;
+  height: 70vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color:aliceblue;
+  color:rgb(0, 0, 0);
+  /* box-shadow: 0 0 20px rgba(162, 153, 233, 0.895); */
+  /* line-height: 3.4; */
+  background-color: rgb(160, 165, 193);
 }
 .login h2{
-  color: rgba(167, 102, 219, 0.773);
+  color: rgba(129, 16, 221, 0.773);
 }
 .contact-col{
   flex-basis: 48%;
@@ -27,6 +35,6 @@
   resize: none;
 }
 .login .btn{
-  background: rgba(167, 102, 219, 0.773);
+  background: rgba(130, 6, 231, 0.773);
   color: #ffffff;
 }

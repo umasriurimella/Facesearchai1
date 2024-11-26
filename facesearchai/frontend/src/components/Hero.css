@@ -1,13 +1,15 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(60, 54, 103, 0.7),rgba(43, 33, 111, 0.7)), url('../assets/hero_img.png'); 
+    background:rgb(42, 22, 119);  
     background-size: cover;
     background-position: center;
-    color: #ffffff;
+    color: #f1ecf2;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: rgb(30, 18, 83); */
+    line-height: 1.4;
 }
 .hero-text{
     text-align: center;
